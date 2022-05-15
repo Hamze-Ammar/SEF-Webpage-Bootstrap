@@ -42,15 +42,11 @@ header {
     width: 100%;
 }
 
-
 .headerNavBar {
     text-align:end;
 }
 
-
 /* success rate CSS section */
-
-
 
 .successRateSection h1 {
     color: #18ea19;
@@ -71,4 +67,16 @@ header {
 
 .card-body {
     padding: 0.25rem;
+}
+
+
+
+/* inTheMedia section */
+
+.inTheMedia {
+    background-color: lightgray;
+}
+
+.inTheMedia .row {
+    margin: 2em auto;
 }
