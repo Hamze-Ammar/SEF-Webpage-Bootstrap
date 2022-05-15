@@ -2,7 +2,7 @@
 .container {
     min-width: 100%;
     margin: 2em 2em;
-    padding: 2em 2em;
+    padding: 2em 1em;
 }
 .greenButton {
     color: #fff;
@@ -63,4 +63,9 @@ header {
 .discoverProgramSection h1 {
     text-align: center;
     color: #fff;
+}
+
+.card-body {
+
+    padding: 0.25rem;
 }
