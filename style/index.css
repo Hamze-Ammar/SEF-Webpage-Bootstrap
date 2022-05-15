@@ -80,3 +80,11 @@ header {
 .inTheMedia .row {
     margin: 2em auto;
 }
+
+.startegicPartner .row {
+    margin-bottom: 2em;
+}
+
+.startegicPartnerPic {
+    min-width:180px !important;
+}
