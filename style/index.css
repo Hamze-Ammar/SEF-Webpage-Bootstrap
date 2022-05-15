@@ -88,3 +88,17 @@ header {
 .startegicPartnerPic {
     min-width:180px !important;
 }
+
+/* subscribeSection */
+.subscribeSection {
+    background-color: lightgray;
+}
+
+.subscribeSection .btn{
+    margin-top: 2em;
+    background-color: black;
+    font-weight:600;
+    border: none;
+    padding:0.7em 2em;
+    color: gainsboro;
+}
