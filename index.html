@@ -17,17 +17,17 @@
   </head>
   
   <body>
-    <header class="container">
+    <header class="container-fluid " style="background-color:gray;">
       
-        <div class="row">
+        <div class="row justify-content-md-center">
           <!--nav bar goes here-->
           <!-- <div class="d-flex flex-row"> -->
 
-            <div class="col-2">
-              <img src="./assets/se-logo.png" class="rounded float-left" alt="..." style="width:5em">
+            <div class="col-3">
+              <img src="./assets/se-logo.png" class="rounded float-left" alt="..." style="width:4em">
             </div>
-            <div class="col-10">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="col headerNavBar">
+              <nav class="navbar navbar-expand-lg navbar-light end-50 ">
                 <!-- <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
                       <a class="nav-link" href="https://sefactory.io/">Contact <span class="sr-only">(current)</span></a>
                     </li>
                     <li>
-                      <button type="button" class="btn btn-primary greenButton">Apply now</button>
+                      <button type="button" class="btn btn-primary greenButton"><strong>Apply now</strong></button>
                     </li>
                   </ul>
                   
@@ -72,8 +72,17 @@
 
 
 
-      <div>
+      <div class="row">
         <!--the text and the button side of the header-->
+        <!--The card section inside the header-->
+        <div class="col-6 card headerCard">
+          <div class="card-body">
+            <h1 class="card-title"><strong>Empowering youth</strong><br/>with tech jobs</h1>
+            <p class="card-text">SE Factory's top-ranked training programs graduate tech professionals working for companies all over the world</p>
+
+            <a class="btn btn-primary greenButton" href="https://sefactory.io/"><strong>Learn More</strong></a>
+          </div>
+        </div>
       </div>
     </header>
 

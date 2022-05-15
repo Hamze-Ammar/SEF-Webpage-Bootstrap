@@ -1,5 +1,42 @@
+body {
+    
+}
+
 .greenButton {
     color: #fff;
     background-color: #18ea19;
     border-color: #18ea19;
+    /* font-size: 150%; */
+}
+
+.card {
+    background-color:rgba(0,0,0,0);
+    border: none;
+
+}
+
+header {
+    color:#fff;
+    /* font-size: 250%; */
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url("../assets/presentation.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 1rem;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.headerCard {
+    margin-top: 11rem;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+
+.headerNavBar {
+    text-align:end;
 }
