@@ -1,7 +1,8 @@
 
 .container {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    min-width: 100%;
+    margin: 2em 2em;
+    padding: 2em 2em;
 }
 .greenButton {
     color: #fff;
@@ -49,4 +50,17 @@ header {
 
 .successRateSection h1 {
     color: #18ea19;
+}
+
+/* discoverProgramSection */
+
+.discoverProgramSection {
+    background-color: #18ea19;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.discoverProgramSection h1 {
+    text-align: center;
+    color: #fff;
 }
