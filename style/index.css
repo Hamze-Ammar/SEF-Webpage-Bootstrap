@@ -40,3 +40,15 @@ header {
 .headerNavBar {
     text-align:end;
 }
+
+
+/* success rate CSS section */
+
+.successRateSection {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.successRateSection h1 {
+    color: #18ea19;
+}
