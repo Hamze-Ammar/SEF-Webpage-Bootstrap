@@ -1,7 +1,8 @@
-body {
-    
-}
 
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 .greenButton {
     color: #fff;
     background-color: #18ea19;
@@ -44,10 +45,7 @@ header {
 
 /* success rate CSS section */
 
-.successRateSection {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
+
 
 .successRateSection h1 {
     color: #18ea19;
