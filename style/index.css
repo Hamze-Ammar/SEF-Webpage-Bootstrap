@@ -102,3 +102,22 @@ header {
     padding:0.7em 2em;
     color: gainsboro;
 }
+
+/* footer */
+
+.footer {
+    background-color: black;
+    color: #fff;
+}
+
+.iconsContainer {
+    margin:0 !important;
+    padding: 0;
+    
+
+}
+
+.iconsContainer i {
+    font-size: 130%;
+    color: #fff;
+}
