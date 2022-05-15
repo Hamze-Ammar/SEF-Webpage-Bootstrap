@@ -36,8 +36,24 @@ header {
     padding-top: 1rem;
 }
 
+.burgerMenu {
+    display:none;
+    float:right;
+    font-size: xx-large;
+    color: #fff;
+    /* margin-right: 2em !important;
+    padding-right: 3em !important; */
+}
+
+
+
+
+
+
+
+
 .headerSection {
-    padding-left: 5em;
+    padding-left: 1em;
 }
 
 .nav-link {
@@ -93,7 +109,11 @@ header {
     margin-bottom: 2em;
 }
 
-.startegicPartnerPic {
+/* .startegicPartnerPic {
+    min-width:180px !important;
+} */
+
+.img-fluid {
     min-width:180px !important;
 }
 
@@ -129,3 +149,32 @@ header {
     font-size: 130%;
     color: #fff;
 }
+
+/* hide the nav bar on 1000px screens and less */
+@media screen and (max-width: 1000px){
+    .headerNavBar {
+        display: none;
+    }
+    .burgerMenu {
+        display:contents;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .burgerMenuCol{
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .burgerMenuCol{
+        max-width: none;
+    }
+}
+
+/* @media screen and (max-width: 370px){
+    * {
+        font-size:7vw !important;
+    }
+} */
