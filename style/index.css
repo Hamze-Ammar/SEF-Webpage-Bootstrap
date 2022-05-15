@@ -1,8 +1,8 @@
 
 .container {
     min-width: 100%;
-    margin: 2em 2em;
-    padding: 2em 1em;
+    /* margin: 2em 2em; */
+    padding: 2em 5em;
 }
 .greenButton {
     color: #fff;
@@ -26,6 +26,10 @@ header {
     background-blend-mode: multiply;
     background-size: cover;
     padding-top: 1rem;
+}
+
+.headerSection {
+    padding-left: 5em;
 }
 
 .nav-link {
@@ -66,6 +70,5 @@ header {
 }
 
 .card-body {
-
     padding: 0.25rem;
 }
